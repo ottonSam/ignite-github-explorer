@@ -1,3 +1,5 @@
+const repositoryName = "Unform com interpolação";
+
 export function RepositoryList() {
   return (
     <section className="repository-list">
@@ -5,12 +7,12 @@ export function RepositoryList() {
 
       <ul>
         <li>
-          <strong>Unform</strong>
+          <strong>{repositoryName}</strong>
           <p>Forms in reactJS</p>
 
           <a href="#">Acessar repositório</a>
         </li>
       </ul>
     </section>
-  )
+  );
 }
