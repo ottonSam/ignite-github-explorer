@@ -1,4 +1,4 @@
-const repositoryName = "Unform com interpolação";
+import { RepositoryItem } from "./RepositoryItem";
 
 export function RepositoryList() {
   return (
@@ -6,12 +6,10 @@ export function RepositoryList() {
       <h1>Lista de repositórios</h1>
 
       <ul>
-        <li>
-          <strong>{repositoryName}</strong>
-          <p>Forms in reactJS</p>
-
-          <a href="#">Acessar repositório</a>
-        </li>
+        <RepositoryItem repository="Unform-2"/>
+        <RepositoryItem />
+        <RepositoryItem />
+        <RepositoryItem />
       </ul>
     </section>
   );
